@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2E3A59"
+    tools:context=".WriteNoteActivity">
+
+    <TextView
+        android:id="@+id/textKind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/nunitobold"
+        android:text="kind"
+        android:textColor="#FBFCFC"
+        android:textSize="28sp" />
+
+    <ImageView
+        android:id="@+id/saveButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/save"
+        />
+
+    <ImageView
+        android:id="@+id/heartButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/saveButton"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/heart"
+
+        />
+
+    <ImageView
+        android:id="@+id/backgroundButton"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/heartButton"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="15dp"
+        android:src="@drawable/note_background"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_below="@+id/saveButton"
+        android:id="@+id/noteTitle"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        android:layout_marginBottom="10dp"
+        app:boxBackgroundColor="#FBFCFC"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxStrokeColor="#2E3A59"
+        app:boxStrokeWidth="1dp"
+        app:boxStrokeWidthFocused="2dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="100"
+        app:counterTextColor="@color/specialWhite"
+        android:scrollbars="vertical"
+        android:overScrollMode="ifContentScrolls"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            app:counterEnabled="true"
+            app:counterMaxLength="100"
+            android:id="@+id/titleEditText"
+            android:textColorHint="#2E3A59"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/nunitoregular"
+            android:inputType="text"
+            android:padding="12dp"
+            android:textColor="#2E3A59"
+            android:scrollbars="vertical"
+            android:textSize="16sp"
+            android:gravity="top|start"
+            android:overScrollMode="always"
+            android:imeOptions="flagNoExtractUi"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <RelativeLayout
+        android:id="@+id/linearContent"
+        android:layout_below="@+id/noteTitle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+       >
+
+    <TextView
+        android:layout_marginEnd="10dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/charCounterTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="8dp"
+        android:text="0/5000"
+        android:textColor="@color/specialWhite"
+        android:textSize="12sp"/>
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/noteContent"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:padding="6dp"
+        app:boxBackgroundColor="#FBFCFC"
+        app:boxCornerRadiusBottomEnd="10dp"
+        app:boxCornerRadiusBottomStart="10dp"
+        app:boxCornerRadiusTopEnd="10dp"
+        app:boxCornerRadiusTopStart="10dp"
+        app:boxStrokeColor="#2E3A59"
+        app:boxStrokeWidth="1dp"
+        app:boxStrokeWidthFocused="2dp"
+        app:counterEnabled="true"
+        app:counterMaxLength="5000"
+        app:counterTextColor="@color/specialWhite"
+        android:scrollbars="vertical"
+        android:overScrollMode="ifContentScrolls"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            app:counterEnabled="true"
+            app:counterMaxLength="5000"
+            android:id="@+id/contentEditText"
+             android:textColorHint="#2E3A59"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/nunitoregular"
+            android:inputType="textMultiLine"
+            android:padding="12dp"
+            android:textColor="#2E3A59"
+            android:scrollbars="vertical|horizontal"
+            android:textSize="16sp"
+            android:gravity="top|start"
+            android:overScrollMode="always"
+            android:imeOptions="flagNoExtractUi"
+
+           />
+    </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

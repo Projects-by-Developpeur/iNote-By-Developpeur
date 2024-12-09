@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:id="@+id/defaultColorLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <View
+            android:id="@+id/colorCircle1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/circle_default"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/defaultColor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Default"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="@font/nunitoregular"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/colorCircle1"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lightPinkLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <View
+            android:id="@+id/colorCircle2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/circle_light_pink"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/lightPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Pink"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="@font/nunitoregular"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/colorCircle2"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/brightYellowLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <View
+            android:id="@+id/colorCircle3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/circle_bright_yellow"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/brightYellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bright Yellow"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="@font/nunitoregular"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/colorCircle3"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/softCyanLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <View
+            android:id="@+id/colorCircle4"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/circle_soft_cyan"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/softCyan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soft Cyan"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="@font/nunitoregular"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/colorCircle4"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/vibrantOrangeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <View
+            android:id="@+id/colorCircle5"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/circle_vibrant_orange"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/vibrantOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vibrant Orange"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="@font/nunitoregular"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/colorCircle5"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/springGreenLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <View
+            android:id="@+id/colorCircle6"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/circle_spring_green"
+            android:layout_centerVertical="true"/>
+
+        <TextView
+            android:id="@+id/springGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spring Green"
+            android:textColor="#000000"
+            android:textSize="16sp"
+            android:fontFamily="@font/nunitoregular"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/colorCircle6"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+</LinearLayout>

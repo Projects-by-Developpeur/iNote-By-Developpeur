@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_shape"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_vertical">
+
+    <ImageView
+        android:id="@+id/guestphoto"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:src="@drawable/guest"
+       />
+
+    <TextView
+        android:id="@+id/userType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Welcome, Guest 💙"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#2E3A59"
+        android:fontFamily="@font/nunitobold"
+        android:textSize="22sp"
+        android:textAlignment="center"/>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tv_login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Login"
+            android:textColor="#2E3A59"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:focusable="true"
+            android:fontFamily="@font/nunitobold"/>
+
+        <View
+            android:layout_height="30dp"
+            android:layout_width="2dp"
+            android:background="#2E3A59"
+            android:layout_marginHorizontal="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="Sign Up"
+            android:textColor="#2E3A59"
+            android:textSize="16sp"
+            android:clickable="true"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:focusable="true"
+            android:fontFamily="@font/nunitobold"/>
+    </LinearLayout>
+    <View
+        android:id="@+id/line2"
+        android:layout_marginTop="5dp"
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#2E3A59"/>
+</LinearLayout>

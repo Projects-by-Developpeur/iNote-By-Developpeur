@@ -1,0 +1,76 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <group android:id="@+id/group_filter">
+
+        <item
+            android:id="@+id/nav_add_note"
+            android:icon="@drawable/add"
+            android:iconTint="#2E3A59"
+            android:title="Add a note"
+            app:showAsAction="ifRoom" />
+        <item
+            android:id="@+id/nav_filter_all"
+            android:title="All"
+            android:icon="@drawable/all"
+            android:iconTint="#2E3A59"/>
+        <item
+            android:id="@+id/nav_filter_personal"
+            android:title="Personal"
+            android:icon="@drawable/personal"
+            android:iconTint="#2E3A59"/>
+        <item
+            android:id="@+id/nav_filter_important"
+            android:title="Important"
+            android:icon="@drawable/important"
+            android:iconTint="#2E3A59"/>
+        <item
+            android:id="@+id/nav_filter_work"
+            android:title="Work"
+            android:icon="@drawable/work"
+            android:iconTint="#2E3A59"/>
+        <item
+            android:id="@+id/nav_filter_education"
+            android:title="Education"
+            android:icon="@drawable/education"
+            android:iconTint="#2E3A59"/>
+
+
+        <item
+            android:id="@+id/nav_filter_favorite"
+            android:title="Favorite"
+            android:icon="@drawable/heart"
+            android:iconTint="#2E3A59"
+            />
+
+    </group>
+
+    <group android:id="@+id/group_communicate">
+        <item
+            android:id="@+id/nav_contact_us"
+            android:title="Contact Us"
+            android:icon="@drawable/conatct_us"
+            android:iconTint="#2E3A59"/>
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="About Us"
+            android:icon="@drawable/about_us"
+            android:iconTint="#2E3A59"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:iconTint="#2E3A59"
+            android:title="Share the App" />
+
+    </group>
+    <group android:id="@+id/group_log_out">
+        <item
+            android:icon="@drawable/logout"
+            android:iconTint="#2E3A59"
+            android:id="@+id/nav_log_out"
+            android:title="Log out" />
+
+
+    </group>
+</menu>

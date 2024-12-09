@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "659269095292",
+    "project_id": "inote-baf4a",
+    "storage_bucket": "inote-baf4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659269095292:android:53047daa066852794edef9",
+        "android_client_info": {
+          "package_name": "com.example.inote"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQ7jbWrPbrOsJ0LDg6gPH1p3hCWul3JtY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
