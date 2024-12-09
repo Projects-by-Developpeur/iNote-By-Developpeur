@@ -1,4 +1,5 @@
-![finallogo-playstore](https://github.com/user-attachments/assets/89c04c98-7803-4209-9d84-adba3f0927f0)
+![finallogo-playstore](https://github.com/user-attachments/assets/89c04c98-7803-4209-9d84-adba3f0927f0).
+
 iNote - Organize Your Notes with Ease
 
 iNote is an intuitive and user-friendly mobile application designed to help users organize and manage their notes efficiently. By categorizing notes, users can quickly find and access the information they need. Whether you're keeping track of personal thoughts, work tasks, or study materials, iNote offers a streamlined solution for note organization. With its clean interface and easy-to-use features, iNote ensures you stay productive and organized.
