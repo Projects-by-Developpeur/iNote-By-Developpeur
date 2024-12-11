@@ -13,7 +13,18 @@
         android:gravity="center"
         android:orientation="vertical">
 
-
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/back" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -34,7 +45,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="16dp"
-                android:text="اتصل بنا"
+                android:text="Contact Us"
                 android:fontFamily="@font/nunitobold"
                 android:textColor="#fbfcfc"
                 android:textSize="32sp"
@@ -46,13 +57,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="24dp"
                 android:gravity="center"
-                android:text="نحن هنا لمساعدتك، تواصل معنا عبر :"
+                android:text="We are here to help you, contact us via:"
                 android:fontFamily="@font/nunitoregular"
                 android:textColor="#fbfcfc"
                 android:textSize="18sp" />
-
-
-
 
 
             <!-- gMAIL Card -->

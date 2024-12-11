@@ -1,6 +1,3 @@
-*.iml
-.gradle
-/local.properties
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -13,3 +10,11 @@
 .externalNativeBuild
 .cxx
 local.properties
+# Firebase
+google-services.json
+
+# Android specific
+
+.gradle/
+.idea/
+build/

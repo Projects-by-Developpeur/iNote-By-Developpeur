@@ -41,6 +41,25 @@ public class AboutUsActivity extends AppCompatActivity {
            }
        });
 
+
+        //back button
+        findViewById(R.id.back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (whichone.equals("guest"))
+                {
+                    Intent intent2 = new Intent(AboutUsActivity.this,GuestActivity.class);
+                    startActivity(intent2);
+                    finish();
+                } else  if (whichone.equals("profile"))
+                {
+                    Intent intent2 = new Intent(AboutUsActivity.this, ProfileActivity.class);
+                    startActivity(intent2);
+                    finish();
+                }
+            }
+        });
+
     }
 
     @Override

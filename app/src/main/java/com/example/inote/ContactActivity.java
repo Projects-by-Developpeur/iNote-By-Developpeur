@@ -46,7 +46,23 @@ public class ContactActivity extends AppCompatActivity {
                     whichone="profile";
                 }
             }
-
+        //back button
+        findViewById(R.id.back).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (whichone.equals("guest"))
+                {
+                    Intent intent2 = new Intent(ContactActivity.this,GuestActivity.class);
+                    startActivity(intent2);
+                    finish();
+                } else  if (whichone.equals("profile"))
+                {
+                    Intent intent2 = new Intent(ContactActivity.this, ProfileActivity.class);
+                    startActivity(intent2);
+                    finish();
+                }
+            }
+        });
 
 
     }
