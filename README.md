@@ -23,3 +23,4 @@ Developed as part of the Android Mobile Apps Development training under the Dév
 
 
 🤝 Contributions Contributions are welcome! If you'd like to improve this app, follow these steps: Fork the repository. Create a new branch for your feature or fix.
+Note: Add Firebase Configuration: If your feature involves syncing or other Firebase services, ensure you configure Firebase in your development environment.
