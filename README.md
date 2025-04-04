@@ -1,4 +1,5 @@
 ![finallogo-playstore](https://github.com/user-attachments/assets/89c04c98-7803-4209-9d84-adba3f0927f0).
+![554f3a98-109b-41db-bc95-d2d179959564](https://github.com/user-attachments/assets/e2e89223-c754-4a90-a7ee-55b9a2350041)
 
 iNote By Developpeur - Organize Your Notes with Ease
 
