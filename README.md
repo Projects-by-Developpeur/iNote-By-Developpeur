@@ -26,5 +26,5 @@ Developed as part of the Android Mobile Apps Development training under the Dév
 
 ![1f089b5b-f197-400e-b609-35d84b23023e](https://github.com/user-attachments/assets/873f0212-4afc-492e-bfe9-ceefd48e0594)
 
-🤝 Contributions Contributions are welcome! If you'd like to improve this app, follow these steps: Fork the repository. Create a new branch for your feature or fix.
+🤝 Contributions are welcome! If you'd like to improve this app, follow these steps: Fork the repository. Create a new branch for your feature or fix.
 Note: Add Firebase Configuration: If your feature involves syncing or other Firebase services, ensure you configure Firebase in your development environment.
